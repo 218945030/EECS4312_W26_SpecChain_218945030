@@ -1,0 +1,1 @@
+{"App Name": "Headspace", "Dataset Size": "2500", "Collection Method": "Data scraping", "Cleaning decisions": "Removes duplicates, empty entries, extremely short reviews, punctuation, special characters and emojis. Converts numbers to test and all words to lowercase. Finally remove stop words and lemmatize"}
