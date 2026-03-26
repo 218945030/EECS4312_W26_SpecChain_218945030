@@ -1,22 +1,151 @@
 {  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Low income user",
+      "description": "A user who need an inexpensive way to relieve stress",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "To relieve stress from day to day life",
+        "To not encure extra living costs what would add more stress"],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Important features are locked behind payed options",
+        "Free content is very limited",
+        "No option for free trial is provided" ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Uses the app after long stressful days at work",
+        "Helps user relax in their free time"      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Free content must be available",
+        "App should not add add extra stress"       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "7ed10211-bbfb-4641-bd1d-62865f7791ae",
+        "6b1672f6-2bfe-4619-903f-ec846a59b89b",
+        "052d42c5-97dd-4aff-9353-67ef77b1a40b",
+        "dd48cb94-c7e0-4d00-972d-e1e0ea122a27",
+        "e303a767-70b2-4d6e-9d8a-3fd9427a7758",
+        "c1cc815a-4f44-42a2-8d16-2f761177f2f4",
+        "98e1e06d-6e05-4629-92d0-8ba7e6504122",
+        "a69b8c65-f21b-4653-9058-0e6e3e9b329e",
+        "2cd4756e-c027-4935-9495-d016e03c0b10",
+        "871dfa37-7e5c-4745-89c8-c7debb1e0f51"      ]
+    }
+    {
+      "id": "P2",
+      "name": "Frequent Meditator",
+      "description": "A user who frequently uses the app to assit with daily meditation",
+      "derived_from_group": "G2",
+      "goals": [
+        "To meditate using the app every day",
+        "To have good meditation sessions to relieve stress"      ],
+      "pain_points": [
+        "App crashes while scrolling",
+        "App crashes during guided meditation",
+        "App is slow to load"      ],
+      "context": [
+        "Meditates every morning to start the day",
+        "Meditates before bed to relax"      ],
+      "constraints": [
+        "Guided meditations should be uninterupted",
+        "Choosing a guided meditation should be user freindly"       ],
+      "evidence_reviews": [
+        "bf7f3350-9f1f-45d8-ad56-3774ce48c445",
+        "65809c05-a0d5-4a2e-bb08-b43f745f7b2e",
+        "e301f287-6ace-4d38-b67d-7c0cb3edb2c4",
+        "f8b17d4a-5ae6-43a8-b07a-2327d87fce43",
+        "c28a017a-f953-46b7-80e1-62405226a8c6",
+        "fc9a4ee6-6259-4d08-a2a3-d528528863c8",
+        "ea8fe962-f245-4e26-8a3e-fd18442dfc77",
+        "2de226bd-76f0-4b5d-b16d-23dc01e7b566",
+        "4cc3f641-c646-4304-a884-d265bd4ff5ca",
+        "687f03e8-9b89-4557-8ffd-33869c1c999c"      ]
+    }
+    {
+      "id": "P3",
+      "name": "User who suffers from insomnia and anxiety",
+      "description": "A user who relies on the app to relieve anxiety and assist with sleep",
+      "derived_from_group": "G3",
+      "goals": [
+        "Reduce daily anxiety through meditation",
+        "Build a routine to assist with sleeping"      ],
+      "pain_points": [
+        "App crashing causing more anxiety",
+        "Sleepcasts being interupted"      ],
+      "context": [
+        "Meditates when feeling anxious",
+        "Listens to sleepcasts to help them fall asleep"      ],
+      "constraints": [
+        "App should not cause users any unwanted anxiety",
+        "Sleepcasts should play uninterupted"       ],
+      "evidence_reviews": [
+        "5a9316f5-f6f8-46ca-bb32-adf1dbf1316e",
+        "8794b56e-4f01-4815-b26a-2b0aa260b96c",
+        "57f00594-c39b-4536-8659-274f8705c769",
+        "39232d7f-b71f-4092-bc59-b3f9d78e499d",
+        "dffe4a29-54f5-4c57-ab4d-ea23eb0252c0",
+        "e472b0f0-7221-45c7-852b-b59b7260a8fb",
+        "cbb846e1-3bb3-4ffe-9359-22b8579e6c4a",
+        "74c5a85b-7844-4201-b1a6-5ca1c1d74535",
+        "c11eb6a7-dc90-45c0-a991-f263b4daaa98",
+        "38d83ef0-6a8a-4ae4-b3ee-02823efa37ee"     ]
+    } 
+    {
+      "id": "P4",
+      "name": "Bug reporter",
+      "description": "A user who frequently encounters bugs while using the app",
+      "derived_from_group": "G4",
+      "goals": [
+        "To locate bugs in the app",
+        "To notify app developers and other users",
+        "To improve user experience of the app " ],
+      "pain_points": [
+        "No way to provide feedback except through reviews",
+        "Bugs that cannot be fixed"      ],
+      "context": [
+        "Uses all features of the app to locate bugs",
+        "Is more interested in fixing bugs than new features"      ],
+      "constraints": [
+        "Users should be able to provided feedback",
+        "User feedback should be considered to fix bugs"       ],
+      "evidence_reviews": [
+        "38148569-58ab-4035-85a9-e0fa5322fed4",
+        "3bc38bb1-8b6b-4e3c-8ec3-261b5c9fde9e",
+        "20a874ba-374d-4a34-a0e7-397aa90db580",
+        "3674e169-07b4-446b-9026-ae81dddf1b97",
+        "189bc76e-9352-4ab9-84fa-c9fc6b08b66f",
+        "910bfd42-c915-406c-a8a0-ddd28a78788f",
+        "1ecc09c0-a197-4b57-8712-d52ac44c2a76",
+        "d829427f-7cd3-4bb6-86a7-f522dcb87b95",
+        "7ded350b-cded-4b48-bfd4-412584be4b75",
+        "0ebaf60c-db81-4d2f-8963-4d802732ce29"      ]
+    } 
+    {
+      "id": "P5",
+      "name": "Android device user",
+      "description": "A user who frequently uses the app on their android device",
+      "derived_from_group": "G5",
+      "goals": [
+        "To use the app to meditate once and awhile",
+        "Wants to explore the features of the app and consider subscribing"      ],
+      "pain_points": [
+        "Issues with the app pretaining to their device",
+        "When features are not available due to using an android"      ],
+      "context": [
+        "User owns an android phone",
+        "Uses the app in bed on their phone"      ],
+      "constraints": [
+        "All features must be available to android devices",
+        "App should have same reliablity across devices"       ],
+      "evidence_reviews": [
+        "f29827ed-0c52-4ba7-b358-f4794c188f1c",
+        "04cf02f9-a5bf-4059-bde1-4bc9dcd57288",
+        "189bc76e-9352-4ab9-84fa-c9fc6b08b66f",
+        "af325b88-be24-4ed9-aa8b-73ba5babf3f1",
+        "bda5ce55-b204-4438-83c4-363564e01ecc",
+        "3aa93033-571c-46e4-992a-66c72135b8e1",
+        "e5a1a00a-9131-44c3-979f-80161f7b0557",
+        "a38d13c1-0309-4f38-b118-351b5ea627df",
+        "a7ce7ffc-db3b-46ab-a5cb-d0ff6e478fce",
+        "ca455e32-27f3-4279-858a-ad913ca7d8a6"      ]
+    } 
+
+] }
