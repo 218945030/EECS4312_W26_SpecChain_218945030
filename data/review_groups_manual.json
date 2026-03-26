@@ -2,11 +2,142 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Important functionalities of the app are locked behind payed content",
+      "review_ids": [
+        "7ed10211-bbfb-4641-bd1d-62865f7791ae",
+        "6b1672f6-2bfe-4619-903f-ec846a59b89b",
+        "052d42c5-97dd-4aff-9353-67ef77b1a40b",
+        "dd48cb94-c7e0-4d00-972d-e1e0ea122a27",
+        "e303a767-70b2-4d6e-9d8a-3fd9427a7758",
+        "c1cc815a-4f44-42a2-8d16-2f761177f2f4",
+        "98e1e06d-6e05-4629-92d0-8ba7e6504122",
+        "a69b8c65-f21b-4653-9058-0e6e3e9b329e",
+        "2cd4756e-c027-4935-9495-d016e03c0b10",
+        "871dfa37-7e5c-4745-89c8-c7debb1e0f51"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "every single thing paid literally nothing free absolutely nothing",
+        "everything behind paywall everyone know",
+        "cost seventeen ridiculous",
+        "expensive nearly one hundred dollar per year twenty per month rate power bill relief worldwide web greedy ppl suffering relief afford web system full spider ready pounce u instead give freely jesus see happens god approves",
+        "calming almost everything cost money like cost money make calm happy annoying immediately uninstalled",
+        "went thinking useful everything cost money funny app help reduce stress spending money huge stress factor thanks giving false hope false advertising point helping people want profit wish company better moral profiting mental ill people looking place meditate",
+        "lately stopped working blank home screen many screen tried deleting reinstalling luck pretty expensive subscription bad experience",
+        "app expensive",
+        "free download paid app literally nothing free",
+        "app extremely limited paid member hiding thing insomiacs desperately need fall asleep behind paywall dirty tactic opinion want improve either stop making premium price roof supply u free item feel listened feel ignored"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "App crashes frequently",
+      "review_ids": [
+        "bf7f3350-9f1f-45d8-ad56-3774ce48c445",
+        "65809c05-a0d5-4a2e-bb08-b43f745f7b2e",
+        "e301f287-6ace-4d38-b67d-7c0cb3edb2c4",
+        "f8b17d4a-5ae6-43a8-b07a-2327d87fce43",
+        "c28a017a-f953-46b7-80e1-62405226a8c6",
+        "fc9a4ee6-6259-4d08-a2a3-d528528863c8",
+        "ea8fe962-f245-4e26-8a3e-fd18442dfc77",
+        "2de226bd-76f0-4b5d-b16d-23dc01e7b566",
+        "4cc3f641-c646-4304-a884-d265bd4ff5ca",
+        "687f03e8-9b89-4557-8ffd-33869c1c999c"
+      ],
+      "example_reviews": [
+        "app crashing frequently please fix issue soon possible thank",
+        "crash time reliable",
+        "app crash whenever try scroll single",
+        "worked fine first day every time click daily assessment crash",
+        "app pure junk horrible audio quality crash time try exit mediation load load slow app background play video sooo many ux issue app app bad level something",
+        "gor last month app glitchy often crash",
+        "crash every time use waste money",
+        "constantly crashing freezing despite restarts reinstalls changing setting incredibly frustrating use used great app interface cluttered harder ever find looking giving switching alternative",
+        "cancel subscription often try meditate app crash second making anxiety even worse",
+        "keep crashing middle sleepcasts newborn need able get sleep quickly husband shift two five hour unhelpful crash minute send back square one"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Features of app are useful for people with insomnia/anxieity",
+      "review_ids": [
+        "5a9316f5-f6f8-46ca-bb32-adf1dbf1316e",
+        "8794b56e-4f01-4815-b26a-2b0aa260b96c",
+        "57f00594-c39b-4536-8659-274f8705c769",
+        "39232d7f-b71f-4092-bc59-b3f9d78e499d",
+        "dffe4a29-54f5-4c57-ab4d-ea23eb0252c0",
+        "e472b0f0-7221-45c7-852b-b59b7260a8fb",
+        "cbb846e1-3bb3-4ffe-9359-22b8579e6c4a",
+        "74c5a85b-7844-4201-b1a6-5ca1c1d74535",
+        "c11eb6a7-dc90-45c0-a991-f263b4daaa98",
+        "38d83ef0-6a8a-4ae4-b3ee-02823efa37ee"
+      ],
+      "example_reviews": [
+        "app hacked insomnia help fall asleep",
+        "app thing truly helped anxiety amazing",
+        "love sleepcast story meditation course based different emotion helped anxiety depression darkest time",
+        "app wonderful sorted per need helped anxiety depression overthinking use stick easy navigate including daily routine feel difference",
+        "absolute wonder love app much much helped enter habit meditation undervalued self treatment depression anxiety",
+        "really helpful anxiety moment bid breakdown second time downloaded app wow almost instantly help calm mind body load still look forward helping thanks",
+        "try struggling anxiety sleep long time really help start proactive thing putting try",
+        "best app meditation relief anxiety",
+        "app changed life better sleep sound use every night daily meditation course handling sadness anxiety handling stress world event tragedy better able handle ups down life p lu option counseling psychiatry service awesome needing extra support long time meditator learned great mindfulness technique refreshed practice highly recommend app",
+        "app wide variety meditation podcast also help track level stress anxiety help depression far tried feature app seems lot helpful tool everyone use every day looking forward use long term track progress use cbt session chat coach"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Reviews reporting bugs found while using the app",
+      "review_ids": [
+        "38148569-58ab-4035-85a9-e0fa5322fed4",
+        "3bc38bb1-8b6b-4e3c-8ec3-261b5c9fde9e",
+        "20a874ba-374d-4a34-a0e7-397aa90db580",
+        "3674e169-07b4-446b-9026-ae81dddf1b97",
+        "189bc76e-9352-4ab9-84fa-c9fc6b08b66f",
+        "910bfd42-c915-406c-a8a0-ddd28a78788f",
+        "1ecc09c0-a197-4b57-8712-d52ac44c2a76",
+        "d829427f-7cd3-4bb6-86a7-f522dcb87b95",
+        "7ded350b-cded-4b48-bfd4-412584be4b75",
+        "0ebaf60c-db81-4d2f-8963-4d802732ce29"
+      ],
+      "example_reviews": [
+        "tired buggy app close canceling annual renewal long back forth help resolved issue new bug week later make anything longer minute unplayable exhausting",
+        "latest update stop google fit syncing also affect vitality point seems also bug cause infinitely refreshing still issue connect google fit blocked app",
+        "app incredibly buggy lately troubleshooting yield result reaching company seem help either much pay really poor experience app disappointing used great considering cancelling point bug",
+        "serious paid app many bug headspace name app stop playing audio middle meditation happens every two three day language saved properly set language every time open app saved offline audio lost basically save audio please make sure test app well releasing several phone model mine xiaomi fifteent pro cancel subscription",
+        "headspace user android year always good app however past month simply unusable buggy crash slow renewing subscription really unhappy",
+        "playback keep stopping giving error message recent update cheap app bug need fixed like month",
+        "one star bug keep interrupting meditation halfway make episode crash otherwise love headspace feel like bug crash almost part meditation exercise stay calm stay zen actually getting annoying pls fix",
+        "good resource buggy like meditation app lag bit often meditation stop playback randomly due play error annoying also app super confusing lack customisable home page daily use apps like benefit ai",
+        "love much app however full bug keep stopping meditation saying internet loading need fix",
+        "many bug explore screen loading long loading showing home screen instead meditation failing error history showing duplicated meditation"
+      ]
+     },
+     {
+      "group_id": "G5",
+      "theme": "Users who run the app on an android/samsung/google device",
+      "review_ids": [
+        "f29827ed-0c52-4ba7-b358-f4794c188f1c",
+        "04cf02f9-a5bf-4059-bde1-4bc9dcd57288",
+        "189bc76e-9352-4ab9-84fa-c9fc6b08b66f",
+        "af325b88-be24-4ed9-aa8b-73ba5babf3f1",
+        "bda5ce55-b204-4438-83c4-363564e01ecc",
+        "3aa93033-571c-46e4-992a-66c72135b8e1",
+        "e5a1a00a-9131-44c3-979f-80161f7b0557",
+        "a38d13c1-0309-4f38-b118-351b5ea627df",
+        "a7ce7ffc-db3b-46ab-a5cb-d0ff6e478fce",
+        "ca455e32-27f3-4279-858a-ad913ca7d8a6"
+      ],
+      "example_reviews": [
+        "app slow night take minute load get relaxed app stop close much new stuff pixel ten pro google fi phone issue",
+        "good work keep crashing two minute soothe body mind meditation using samsung sten phone",
+        "headspace user android year always good app however past month simply unusable buggy crash slow renewing subscription really unhappy",
+        "using headspace year work samsung afifty four stop ten min reached help still working week need headspace please please sort",
+        "headspace would great unfortunately current version android app terrible almost unusable app reason slow laggy although previous version worked smoothly lag worse yet streaming frequently stop due obscure error something went wrong interrupt ruin meditation problem persisted month extremely disappointing paying",
+        "app pretty unusable phone samsung take forever open moving around different tab page one take age cut midway meditation say internet connection many different thing almost impossible find looking decent length meditation start day find three minute one worth money",
+        "sorry app buggy galaxy stwenty five edge please goodness sake rather ai function first",
+        "oh dear something wrong paid annual membership year use app daily sleep story sound well meditation bug every day android sure quality app decreased much jarring sleep story fail trying fall asleep eight hr radio fail task switching cause issue considering dropping subscription finding alternative",
+        "love app really help unwind found app crashing latest samsung android update often say online",
+        "android user agree many others app slow almost unusable listen sleepcasts frequently fail short paying subscription expect used responsive got worse worse recently"
       ]
     }
   ]}
