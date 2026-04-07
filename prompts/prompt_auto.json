@@ -1,5 +1,5 @@
 {
-    "prompt": " "Group these by theme.
+    "prompt": "Group these by theme.
 
 The response MUST start with '[' and end with ']'.
 
