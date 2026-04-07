@@ -23,12 +23,10 @@ Rules:
 Reviews: 
 {data}, 
 
-""" Please take this list of review groups and combine similar ones in order to reduce the amount to around 5 - 10.
+Please take this list of review groups and combine similar ones in order to reduce the amount to around 5 - 10.
 
 Return the result as a json list of groups in the same format
 
 Here are the list of groups to combine:
 {data} 
-"""
-"
 }
