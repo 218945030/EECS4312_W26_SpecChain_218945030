@@ -1,13 +1,33 @@
 {
-  "groups": [
+  "groups":[
     {
-      "group_id": "A1",
-      "theme": "Workout logging issues",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
-      ]
+      "group_id": "G1",
+      "theme": "positive reviews",
+      "review_ids": ["f6d0b62c-7c7e-43f4-8c07-92af30bf99b2", "c3850de2-fafa-4685-ae70-aadcd57e4e1f", "dd10721a-60f0-4846-9722-f19f5e2fba49"],
+      "example_reviews": ["great meditation app", "app best meditation app period", "best thing ever done anxiety panic disorder really help overcome stressor wonderful app would recommend everyone"]
+    },
+    {
+      "group_id": "G2",
+      "theme": "subscription and refund issues",
+      "review_ids": ["f99c20b3-d270-4da4-bee5-487339566206", "b6249bf7-5770-43ca-ab2d-414cee2d256d", "1236c473-7f97-48e9-815d-7f526032655d"],
+      "example_reviews": ["scammer refusing refund fourteen day free trial signed fourteenday free trial decided expensive canceled membership with", "cancelling subscription long nightmare", "sketched disappointed bought subscription aunt last xmas aunt decided longer wanted app requested refund automatic renew"]
+    },
+    {
+      "group_id": "G3",
+      "theme": "app functionality and user experience",
+      "review_ids": ["becf09ce-973e-4cb2-8dec-0f4c28f85669", "7c8f4681-56eb-48c5-9b86-c5f6d2816ff6", "3494011e-98f2-4061-ac4c-511701ca3493"],
+      "example_reviews": ["app great user friendly search thing filter podcast course meditation scroll", "need easier way reset course", "add casting make android tv app andys voice come big tv help absorb session better miss feeling netflix series"]
+    },
+    {
+      "group_id": "G4",
+      "theme": "negative reviews and complaints",
+      "review_ids": ["1f99daa8-6481-49d3-b312-17d53e118ec7", "2f617d13-f874-4d3d-aee3-c96962e683e8", "77a89e65-4568-4fb4-bc47-db84fd62c185"],
+      "example_reviews": ["stupid paywall bad annoying", "absolute trash everything mean everything really need locked need pay someone going hard time money mean app made make s", "cry night anymore"]
+    },
+    {
+      "group_id": "G5",
+      "theme": "technical issues and support",
+      "review_ids": ["dd3cd42a-2722-4c93-a605-6293dfcc5eb0", "ec98ffa0-1296-4f73-9fcd-88dc17d7b545", "34ecfc66-bf85-46bc-ac4f-730689beb228"],
+      "example_reviews": ["figure unsubsribe poor support", "locked receiving email unlock", "able cancel plan last year trying trial version stuck app trying one time trial kept emailing headspace google refund re"]
     }
-  ]
-}
+]}
