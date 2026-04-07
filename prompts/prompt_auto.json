@@ -4,14 +4,11 @@
 The response MUST start with '[' and end with ']'.
 
 Output format: 
-[
-    curly brace 
+   
       'group_id': 'G1',
       'theme': ,
-      'review_ids': [],
-      'example_reviews': []
-    curly brace
-]
+      'review_ids': ,
+      'example_reviews': 
 
 Return ONLY valid JSON
 
