@@ -1,5 +1,5 @@
 {
-    "prompt": " """Group these by theme.
+    "prompt": " "Group these by theme.
 
 The response MUST start with '[' and end with ']'.
 
@@ -21,7 +21,7 @@ Rules:
 - No explanations
 
 Reviews: 
-{data} """, 
+{data} ", 
 
 """ Please take this list of review groups and combine similar ones in order to reduce the amount to around 5 - 10.
 
