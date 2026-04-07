@@ -1,0 +1,109 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Mindful Maven",
+      "description": "A wellness enthusiast who regularly practices meditation and yoga",
+      "goals": [
+        "to find a reliable meditation app that helps reduce stress and anxiety"
+      ],
+      "pain_points": [
+        "difficulty finding an app that meets her meditation needs"
+      ],
+      "context": [
+        "regularly practices meditation and yoga"
+      ],
+      "constraints": [
+        "values ease of use and high-quality content"
+      ],
+      "evidence_reviews": [
+        "f6d0b62c-7c7e-43f4-8c07-92af30bf99b2",
+        "c3850de2-fafa-4685-ae70-aadcd57e4e1f"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Frustrated Fan",
+      "description": "A user who had issues with subscription and refund",
+      "goals": [
+        "to get a refund for an unwanted subscription"
+      ],
+      "pain_points": [
+        "difficulty canceling subscription and getting a refund"
+      ],
+      "context": [
+        "signed up for a free trial and forgot to cancel"
+      ],
+      "constraints": [
+        "values ease of use and clear refund policies"
+      ],
+      "evidence_reviews": [
+        "f99c20b3-d270-4da4-bee5-487339566206",
+        "b6249bf7-5770-43ca-ab2d-414cee2d256d"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Tech-Savvy Tom",
+      "description": "A user who values app functionality and user experience",
+      "goals": [
+        "to find an app with a user-friendly interface and seamless functionality"
+      ],
+      "pain_points": [
+        "difficulty navigating the app and finding desired features"
+      ],
+      "context": [
+        "regularly uses various apps for meditation and wellness"
+      ],
+      "constraints": [
+        "values ease of use and seamless functionality"
+      ],
+      "evidence_reviews": [
+        "becf09ce-973e-4cb2-8dec-0f4c28f85669",
+        "7c8f4681-56eb-48c5-9b86-c5f6d2816ff6"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Disappointed Dave",
+      "description": "A user who had a negative experience with the app",
+      "goals": [
+        "to find an app that meets his needs and provides value"
+      ],
+      "pain_points": [
+        "difficulty with app functionality and overall experience"
+      ],
+      "context": [
+        "tried the app but was disappointed with the paywall"
+      ],
+      "constraints": [
+        "values affordability and quality content"
+      ],
+      "evidence_reviews": [
+        "1f99daa8-6481-49d3-b312-17d53e118ec7",
+        "2f617d13-f874-4d3d-aee3-c96962e683e8"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Troubled Tim",
+      "description": "A user who experienced technical issues and support problems",
+      "goals": [
+        "to resolve technical issues and get support"
+      ],
+      "pain_points": [
+        "difficulty with app functionality and lack of support"
+      ],
+      "context": [
+        "experienced technical issues with the app"
+      ],
+      "constraints": [
+        "values reliable support and seamless functionality"
+      ],
+      "evidence_reviews": [
+        "dd3cd42a-2722-4c93-a605-6293dfcc5eb0",
+        "ec98ffa0-1296-4f73-9fcd-88dc17d7b545"
+      ]
+    }
+  ]
+}
