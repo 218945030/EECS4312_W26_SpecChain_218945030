@@ -1,3 +1,25 @@
 {
-    "prompt": "Group these by theme. The response MUST start with '[' and end with ']'. Output format: [ curly brace "group_id": "G1", "theme": , "review_ids": [],"example_reviews": [] curly brace ] Return ONLY valid JSONRules: - Max 5 groups- Max 3 examples per group - No explanations Reviews: {data}" 
+    "prompt": "Group these by theme.
+
+The response MUST start with '[' and end with ']'.
+
+Output format: 
+[
+    curly brace 
+      'group_id': 'G1',
+      'theme': ,
+      'review_ids': [],
+      'example_reviews': []
+    curly brace
+]
+
+Return ONLY valid JSON
+
+Rules: 
+- Max 5 groups
+- Max 3 examples per group 
+- No explanations
+
+Reviews: 
+{data}"
 }
