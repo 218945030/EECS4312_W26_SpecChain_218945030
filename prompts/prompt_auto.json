@@ -1,3 +1,34 @@
 {
-    "prompt": ""
+    "prompt": " """Group these by theme.
+
+The response MUST start with '[' and end with ']'.
+
+Output format: 
+[
+    curly brace 
+      "group_id": "G1",
+      "theme": ,
+      "review_ids": [],
+      "example_reviews": []
+    curly brace
+]
+
+Return ONLY valid JSON
+
+Rules: 
+- Max 5 groups
+- Max 3 examples per group 
+- No explanations
+
+Reviews: 
+{data} """, 
+
+""" Please take this list of review groups and combine similar ones in order to reduce the amount to around 5 - 10.
+
+Return the result as a json list of groups in the same format
+
+Here are the list of groups to combine:
+{data} 
+"""
+"
 }
