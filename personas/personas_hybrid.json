@@ -2,30 +2,122 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
+      "name": "Mindful Maven",
+      "description": "A wellness enthusiast who regularly practices meditation and yoga",
+      "derived_from_group": "H1"
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "to find a reliable meditation app that helps reduce stress and anxiety"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "difficulty finding an app that meets her meditation needs"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "regularly practices meditation before going to sleep",
+        "does yoga every morning"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "values ease of use", 
+        "high-quality content"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "f6d0b62c-7c7e-43f4-8c07-92af30bf99b2",
+        "c3850de2-fafa-4685-ae70-aadcd57e4e1f"
+      ]
+      "notes": "Refined persona and expanded on context and constraints"
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Frustrated Fan",
+      "description": "A user who was charged without knowing",
+      "derived_from_group": "H2"
+      "goals": [
+        "to get a refund for an unwanted subscription"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "pain_points": [
+        "difficulty canceling subscription and getting a refund"
+      ],
+      "context": [
+        "signed up for a free trial and forgot to cancel"
+      ],
+      "constraints": [
+        "values ease of use and clear refund policies"
+      ],
+      "evidence_reviews": [
+        "f99c20b3-d270-4da4-bee5-487339566206",
+        "1236c473-7f97-48e9-815d-7f526032655d"
+      ]
+      "notes": "Refined persona and expanded on user description"
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Tech-Savvy Tom",
+      "description": "A user who want developers to add new functionality to app",
+      "derived_from_group": "H3"
+      "goals": [
+        "to find an app with a user-friendly interface and seamless functionality"
+      ],
+      "pain_points": [
+        "difficulty navigating the app and finding desired features"
+      ],
+      "context": [
+        "regularly uses various apps for meditation and wellness"
+      ],
+      "constraints": [
+        "values ease of use and seamless functionality"
+      ],
+      "evidence_reviews": [
+        "3494011e-98f2-4061-ac4c-511701ca3493",
+        "7c8f4681-56eb-48c5-9b86-c5f6d2816ff6"
+      ]
+      "notes": "Refined persona and expanded on user description"
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Disappointed Dave",
+      "description": "A user who had a negative experience with the app",
+      "derived_from_group": "H4"
+      "goals": [
+        "to find an app that meets his needs and provides value"
+      ],
+      "pain_points": [
+        "difficulty with app functionality and overall experience"
+      ],
+      "context": [
+        "tried the app using a free trial",
+        "enjoyed the available features, but is not willing to pay",
+        "displeased with the available free options"
+      ],
+      "constraints": [
+        "values affordability and quality content"
+      ],
+      "evidence_reviews": [
+        "1f99daa8-6481-49d3-b312-17d53e118ec7",
+        "2f617d13-f874-4d3d-aee3-c96962e683e8"
+      ]
+      "notes": "Refined persona and expanded on personas context"
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Troubled Tim",
+      "description": "A user who experienced technical issues",
+      "derived_from_group": "H5"
+      "goals": [
+        "to report technical issues and get support"
+      ],
+      "pain_points": [
+        "difficulty with app functionality and lack of support"
+      ],
+      "context": [
+        "experienced technical issues with the app"
+      ],
+      "constraints": [
+        "values reliable support and seamless functionality"
+      ],
+      "evidence_reviews": [
+        "34ecfc66-bf85-46bc-ac4f-730689beb228",
+        "ec98ffa0-1296-4f73-9fcd-88dc17d7b545"
+      ]
+      "notes": "Refined persona and expanded on personas goals"
     }
   ]
 }
