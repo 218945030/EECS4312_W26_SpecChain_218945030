@@ -1,16 +1,6 @@
 {  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
-      ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
-    }
-    {
-      "group_id": "H1",
       "theme": "Positive reviews",
       "review_ids": ["f6d0b62c-7c7e-43f4-8c07-92af30bf99b2", "c3850de2-fafa-4685-ae70-aadcd57e4e1f"],
       "example_reviews": [
