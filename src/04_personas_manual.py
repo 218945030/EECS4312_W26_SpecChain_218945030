@@ -1,5 +1,5 @@
 """automated persona generation pipeline"""
-import pandas as pd
+import re
 from groq import Groq
 import json
 from pathlib import Path
@@ -25,6 +25,31 @@ def format_reviews(data):
         for r in data
     )
 
+def split_data(data, size=25):
+
+    for i in range (0, len(data), size):
+        yield data[i:i + size]
+
+def compress_review(review):
+
+    return {
+        "reviewId": review["reviewId"],
+        "content": review["content"]
+    }
+
+def extract_json(text):
+    if not text or not text.strip():
+        raise ValueError("Empty response from model")
+
+    # Extract first JSON object
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if not match:
+        raise ValueError("No JSON object found in response")
+
+    json_str = match.group()
+
+    return json.loads(json_str)
+
 def get_completion(data, grouping_prompt, model="meta-llama/llama-4-scout-17b-16e-instruct", temperature=0):
 
     prompt = grouping_prompt.format(data=data)
@@ -38,18 +63,6 @@ def get_completion(data, grouping_prompt, model="meta-llama/llama-4-scout-17b-16
         stop=None
     )
     return response.choices[0].message.content
-
-def split_data(data, size=25):
-
-    for i in range (0, len(data), size):
-        yield data[i:i + size]
-
-def compress_review(review):
-
-    return {
-        "reviewId": review["reviewId"],
-        "content": review["content"]
-    }
 
 PROMPT_TEMPLATE = """
 Group these by theme.
@@ -92,7 +105,8 @@ for split in split_data(clean_data, 25):
     compressed_split = [compress_review(r) for r in split]
     format_split = format_reviews(compressed_split)
     response = get_completion(format_split, PROMPT_TEMPLATE)
-    result.append(response)
+    parsed = extract_json(response)
+    result.append(parsed)
     print(response)
 
 final_groups = get_completion(result, MERGE_PROMPT)
@@ -100,9 +114,11 @@ final_groups = get_completion(result, MERGE_PROMPT)
 print(type(final_groups))
 print(final_groups)
 
-df = pd.DataFrame(final_groups)
+try:
+    parsed = extract_json(final_groups)
+except json.JSONDecodeError as e:
+    print(e)
+    raise
 
 with open(output_file, "w", encoding="utf-8") as f:
-    for _, row in df.iterrows():
-        record = row.to_dict()
-        f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    json.dump(parsed, f, ensure_ascii=False, indent=2)te(json.dumps(record, ensure_ascii=False) + "\n")
