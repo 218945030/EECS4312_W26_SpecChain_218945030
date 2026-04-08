@@ -9,11 +9,20 @@ client = Groq(api_key="")
 # --- Load JSONL ---
 project_root = Path(__file__).resolve().parent.parent
 reviews_file = project_root / "data" / "reviews_clean.jsonl"
+
+# Automatic Metrics
 groups_file = project_root / "data" / "review_groups_auto.json"
 personas_file = project_root / "personas" / "personas_auto.json"
 requirements_file = project_root / "spec" / "spec_auto.md"
 tests_file = project_root / "tests" / "tests_auto.json"
 output_file = project_root / "metrics" / "metrics_auto.json"
+
+# Hybrid Metrics
+# groups_file = project_root / "data" / "review_groups_hybrid.json"
+# personas_file = project_root / "personas" / "personas_hybrid.json"
+# requirements_file = project_root / "spec" / "spec_hybrid.md"
+# tests_file = project_root / "tests" / "tests_hybrid.json"
+# output_file = project_root / "metrics" / "metrics_hybrid.json"
 
 def read_file(input_file):
     file_data = []
