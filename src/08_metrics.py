@@ -3,8 +3,9 @@ import re
 from groq import Groq
 from pathlib import Path
 import json
+import sys
 
-client = Groq(api_key="")
+client = Groq(api_key=sys.argv[1])
 
 # --- Load JSONL ---
 project_root = Path(__file__).resolve().parent.parent
@@ -23,6 +24,13 @@ output_file = project_root / "metrics" / "metrics_auto.json"
 # requirements_file = project_root / "spec" / "spec_hybrid.md"
 # tests_file = project_root / "tests" / "tests_hybrid.json"
 # output_file = project_root / "metrics" / "metrics_hybrid.json"
+
+# Manual Metrics
+# groups_file = project_root / "data" / "review_groups_manual.json"
+# personas_file = project_root / "personas" / "personas_manual.json"
+# requirements_file = project_root / "spec" / "spec_manual.md"
+# tests_file = project_root / "tests" / "tests_manual.json"
+# output_file = project_root / "metrics" / "metrics_manual.json"
 
 def read_file(input_file):
     file_data = []
