@@ -121,4 +121,4 @@ except json.JSONDecodeError as e:
     raise
 
 with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(parsed, f, ensure_ascii=False, indent=2)te(json.dumps(record, ensure_ascii=False) + "\n")
+    json.dump(parsed, f, ensure_ascii=False, indent=2)
