@@ -1,20 +1,11 @@
 # EECS4312_W26_SpecChain
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
-
-# example
-Application: [Calm]
+Application: [Headspace]
 
 Dataset:
 - reviews_raw.jsonl contains the collected reviews.
 - reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- The cleaned dataset contains 2572 reviews.
 
 Repository Structure:
 - data/ contains datasets and review groups
@@ -26,8 +17,8 @@ Repository Structure:
 - reflection/ contains the final reflection
 
 How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
+1. Create Groq api key at https://console.groq.com/keys
+2. Paste key into src/run_all.py 
+3. Run python script src/run_all.py
 4. Open metrics/metrics_summary.json for comparison results
 
