@@ -14,7 +14,7 @@
       "review_ids": ["f99c20b3-d270-4da4-bee5-487339566206", "1236c473-7f97-48e9-815d-7f526032655d"],
       "example_reviews": [
         "scammer refusing refund fourteen day free trial signed fourteenday free trial decided expensive canceled membership with", 
-        "sketched disappointed bought subscription aunt last xmas aunt decided longer wanted app requested refund automatic renew"]
+        "sketched disappointed bought subscription aunt last xmas aunt decided longer wanted app requested refund automatic renew"],
       "notes": "Narrowed catagory to just refund issues, and removed unrealated review"
     },
     {
@@ -23,7 +23,7 @@
       "review_ids": ["7c8f4681-56eb-48c5-9b86-c5f6d2816ff6", "3494011e-98f2-4061-ac4c-511701ca3493"],
       "example_reviews": [
         "need easier way reset course", 
-        "add casting make android tv app andys voice come big tv help absorb session better miss feeling netflix series"]
+        "add casting make android tv app andys voice come big tv help absorb session better miss feeling netflix series"],
       "notes": "Changed theme to requesting new functionalities, and removed unrealated review"
     },
     {
@@ -32,7 +32,7 @@
       "review_ids": ["1f99daa8-6481-49d3-b312-17d53e118ec7", "2f617d13-f874-4d3d-aee3-c96962e683e8"],
       "example_reviews": [
           "stupid paywall bad annoying", 
-          "absolute trash everything mean everything really need locked need pay someone going hard time money mean app made make s"]
+          "absolute trash everything mean everything really need locked need pay someone going hard time money mean app made make s"],
       "notes": "Removed review that didn't make sense" 
     },
     {
@@ -41,7 +41,7 @@
       "review_ids": ["ec98ffa0-1296-4f73-9fcd-88dc17d7b545", "34ecfc66-bf85-46bc-ac4f-730689beb228"],
       "example_reviews": [
         "locked receiving email unlock", 
-        "able cancel plan last year trying trial version stuck app trying one time trial kept emailing headspace google refund re"]
+        "able cancel plan last year trying trial version stuck app trying one time trial kept emailing headspace google refund re"],
       "notes": "Narrowed catagory to those reporting technical issues, and removed unrealated review"    
     }
   ]
