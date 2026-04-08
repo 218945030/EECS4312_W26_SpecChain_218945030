@@ -9,7 +9,7 @@
         "Enter search query",
         "Submit the search"
       ],
-      "expected_result": "The system displays relevant meditation content, and the user can access it easily."
+      "expected_result": "The system displays relevant meditation content, and the user can access it easily.",
       "notes": "No changes"
     },
     {
@@ -20,7 +20,7 @@
         "Log a meditation session",
         "View progress"
       ],
-      "expected_result": "The system displays accurate and relevant data"
+      "expected_result": "The system displays accurate and relevant data",
       "notes": "Adjusted expected result to be more in line with revised requirment FR_hybrid_2"
     },
     {
@@ -31,7 +31,7 @@
         "Initiate refund process",
         "Verify refund status"
       ],
-      "expected_result": "The system clearly communicates the refund status, and the refund is processed in a timely manner."
+      "expected_result": "The system clearly communicates the refund status, and the refund is processed in a timely manner.",
       "notes": "No changes"
     },
     {
@@ -42,7 +42,7 @@
         "Attempt to cancel subscription",
         "Verify cancellation confirmation"
       ],
-      "expected_result": "The system prevents further charges, and provides a clear confirmation message."
+      "expected_result": "The system prevents further charges, and provides a clear confirmation message.",
       "notes": "No changes"
     },
     {
@@ -53,7 +53,7 @@
         "Open the app",
         "Search for a feature"
       ],
-      "expected_result": "The system displays a clear and intuitive interface, and the feature is easily accessible."
+      "expected_result": "The system displays a clear and intuitive interface, and the feature is easily accessible.",
       "notes": "No changes"
     },
     {
@@ -64,7 +64,7 @@
         "Use a feature",
         "Verify feature functionality"
       ],
-      "expected_result": "The system responds quickly, and the feature functions as expected."
+      "expected_result": "The system responds quickly, and the feature functions as expected.",
       "notes": "No changes"
     },
     {
@@ -75,7 +75,7 @@
         "Search for content",
         "Verify content results"
       ],
-      "expected_result": "The system provides relevant and high-quality results, and the user can access it at a reasonable cost."
+      "expected_result": "The system provides relevant and high-quality results, and the user can access it at a reasonable cost.",
       "notes": "No changes"
     },
     {
@@ -86,7 +86,7 @@
         "Access content with paywall",
         "Verify paywall information"
       ],
-      "expected_result": "The system clearly communicates any costs or paywalls, and the user can make informed decisions."
+      "expected_result": "The system clearly communicates any costs or paywalls, and the user can make informed decisions.",
       "notes": "No changes"
     },
     {
@@ -97,7 +97,7 @@
         "Contact support",
         "Verify support response"
       ],
-      "expected_result": "The system provides prompt and effective assistance, and the issue is resolved in a timely manner."
+      "expected_result": "The system provides prompt and effective assistance, and the issue is resolved in a timely manner.",
       "notes": "No changes"
     },
     {
@@ -108,7 +108,7 @@
         "Report technical issue",
         "Verify issue resolution"
       ],
-      "expected_result": "The system resolves the issue quickly, and prevents similar issues from occurring in the future."
+      "expected_result": "The system resolves the issue quickly, and prevents similar issues from occurring in the future.",
       "notes": "No changes"
     }
   ]
