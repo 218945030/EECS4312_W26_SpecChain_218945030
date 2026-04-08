@@ -3,14 +3,113 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Searching for meditation content",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Open the meditation content search screen",
+        "Enter search query",
+        "Submit the search"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The system displays relevant meditation content, and the user can access it easily."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Tracking meditation progress",
+      "steps": [
+        "Log a meditation session",
+        "View progress"
+      ],
+      "expected_result": "The system displays accurate and relevant data"
+      "notes": "Adjusted expected result to be more in line with revised requirment FR_hybrid_2"
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Requesting a refund",
+      "steps": [
+        "Initiate refund process",
+        "Verify refund status"
+      ],
+      "expected_result": "The system clearly communicates the refund status, and the refund is processed in a timely manner."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Canceling a subscription",
+      "steps": [
+        "Attempt to cancel subscription",
+        "Verify cancellation confirmation"
+      ],
+      "expected_result": "The system prevents further charges, and provides a clear confirmation message."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Navigating the app",
+      "steps": [
+        "Open the app",
+        "Search for a feature"
+      ],
+      "expected_result": "The system displays a clear and intuitive interface, and the feature is easily accessible."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Interacting with app features",
+      "steps": [
+        "Use a feature",
+        "Verify feature functionality"
+      ],
+      "expected_result": "The system responds quickly, and the feature functions as expected."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Searching for content",
+      "steps": [
+        "Search for content",
+        "Verify content results"
+      ],
+      "expected_result": "The system provides relevant and high-quality results, and the user can access it at a reasonable cost."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Accessing content with paywalls",
+      "steps": [
+        "Access content with paywall",
+        "Verify paywall information"
+      ],
+      "expected_result": "The system clearly communicates any costs or paywalls, and the user can make informed decisions."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Contacting support",
+      "steps": [
+        "Contact support",
+        "Verify support response"
+      ],
+      "expected_result": "The system provides prompt and effective assistance, and the issue is resolved in a timely manner."
+      "notes": "No changes"
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_11",
+      "scenario": "Resolving technical issues",
+      "steps": [
+        "Report technical issue",
+        "Verify issue resolution"
+      ],
+      "expected_result": "The system resolves the issue quickly, and prevents similar issues from occurring in the future."
+      "notes": "No changes"
     }
   ]
 }
