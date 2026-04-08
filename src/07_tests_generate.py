@@ -3,8 +3,9 @@ import re
 from groq import Groq
 from pathlib import Path
 import json
+import sys
 
-client = Groq(api_key="")
+client = Groq(api_key=sys.argv[1])
 
 # --- Load JSONL ---
 project_root = Path(__file__).resolve().parent.parent
