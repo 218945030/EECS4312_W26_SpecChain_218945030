@@ -1,4 +1,3 @@
-
 {
   "tests": [
     {
@@ -10,7 +9,7 @@
         "Select a feature"
       ],
       "expected_result": "The application will provide users with 1/4 of the options of that feature."
-    }
+    },
     {
       "test_id": "T_manual_2",
       "requirement_id": "FR1",
@@ -21,7 +20,7 @@
         "Enter information and redeem free trial"
       ],
       "expected_result": "Usesr gain temporary access to all the apps features during the trial period."
-    }
+    },
     {
       "test_id": "T_manual_3",
       "requirement_id": "FR2",
@@ -32,7 +31,7 @@
         "Select a guided meditation"
       ],
       "expected_result": "The guided meditation will start playing without crashing."
-    }
+    },
     {
       "test_id": "T_manual_4",
       "requirement_id": "FR2",
@@ -43,7 +42,7 @@
         "Select a guided meditation"
       ],
       "expected_result": "The guided meditation will successfully play until finished."
-    }
+    },
     {
       "test_id": "T_manual_5",
       "requirement_id": "FR3",
@@ -53,7 +52,7 @@
         "Select the guided meditation tab"
       ],
       "expected_result": "The completed list of available guided meditations will load in under 1 minute."
-    }
+    },
     {
       "test_id": "T_manual_6",
       "requirement_id": "FR3",
@@ -63,7 +62,7 @@
         "Select the sleepcast tab"
       ],
       "expected_result": "The completed list of available sleepcasts will load in under 1 minute."
-    }
+    },
     {
       "test_id": "T_manual_7",
       "requirement_id": "FR4",
@@ -74,8 +73,8 @@
         "Scroll through available guided meditations"
       ],
       "expected_result": "The completed list of available guided meditations will load and scrolling through will not crash the system."
-    }
-     {
+    },
+    {
       "test_id": "T_manual_8",
       "requirement_id": "FR4",
       "scenario": "Option scrolling stability",
@@ -85,7 +84,7 @@
         "Scroll through available sleepcasts"
       ],
       "expected_result": "The completed list of available sleepcasts will load and scrolling through will not crash the system."
-    }
+    },
     {
       "test_id": "T_manual_9",
       "requirement_id": "FR5",
@@ -96,8 +95,8 @@
         "Select a sleepcast"
       ],
       "expected_result": "The sleepcast will start playing without crashing."
-    }
-   {
+    },
+    {
       "test_id": "T_manual_10",
       "requirement_id": "FR5",
       "scenario": "Sleepcast stability",
@@ -107,7 +106,7 @@
         "Select a sleepcast"
       ],
       "expected_result": "The sleepcast will successfully play until finished."
-    }
+    },
     {
       "test_id": "T_manual_11",
       "requirement_id": "FR6",
@@ -117,7 +116,7 @@
         "Access the home page"
       ],
       "expected_result": "No pop up notifications will display on the home screen."
-    }
+    },
     {
       "test_id": "T_manual_12",
       "requirement_id": "FR6",
@@ -127,7 +126,7 @@
         "Select the guided meditation tab"
       ],
       "expected_result": "No pop up notifications will display in the guided meditation menu."
-    }
+    },
     {
       "test_id": "T_manual_13",
       "requirement_id": "FR7",
@@ -138,8 +137,8 @@
         "Fill out form and submit"
       ],
       "expected_result": "Bug report form is succefully submited and viewable by developers."
-    }
-        {
+    },
+    {
       "test_id": "T_manual_14",
       "requirement_id": "FR7",
       "scenario": "Review submitted big reports",
@@ -150,8 +149,8 @@
         "Select view submitted issues"
       ],
       "expected_result": "Users are able to view their previously submitted bug reports."
-    }
-   {
+    },
+    {
       "test_id": "T_manual_15",
       "requirement_id": "FR8",
       "scenario": "Feedback report functionality",
@@ -161,8 +160,8 @@
         "Fill out form and submit"
       ],
       "expected_result": "Feedback form is succefully submited and viewable by developers."
-    }
-        {
+    },
+    {
       "test_id": "T_manual_16",
       "requirement_id": "FR8",
       "scenario": "Review submitted feedback",
@@ -173,27 +172,27 @@
         "Select view submitted issues"
       ],
       "expected_result": "Users are able to view their previously submitted feedback."
-    }
-     {
+    },
+    {
       "test_id": "T_manual_17",
       "requirement_id": "FR9",
       "scenario": "Device dependency",
       "steps": [
         "Open the app on an andorid device",
-        "Naviagate to the home screen",
+        "Naviagate to the home screen"
       ],
       "expected_result": "All features are available."
-    }
+    },
     {
       "test_id": "T_manual_18",
       "requirement_id": "FR9",
       "scenario": "Device dependency",
       "steps": [
         "Open the app on an IOS device",
-        "Naviagate to the home screen",
+        "Naviagate to the home screen"
       ],
       "expected_result": "All features are available."
-    }
+    },
     {
       "test_id": "T_manual_19",
       "requirement_id": "FR10",
@@ -204,8 +203,8 @@
         "Select a guided meditation"
       ],
       "expected_result": "The guided meditation will successfully play until finished."
-    }
-     {
+    },
+    {
       "test_id": "T_manual_20",
       "requirement_id": "FR10",
       "scenario": "Andorid device stability",
