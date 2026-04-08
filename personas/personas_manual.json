@@ -28,7 +28,7 @@
         "a69b8c65-f21b-4653-9058-0e6e3e9b329e",
         "2cd4756e-c027-4935-9495-d016e03c0b10",
         "871dfa37-7e5c-4745-89c8-c7debb1e0f51"      ]
-    }
+    },
     {
       "id": "P2",
       "name": "Frequent Meditator",
@@ -58,7 +58,7 @@
         "2de226bd-76f0-4b5d-b16d-23dc01e7b566",
         "4cc3f641-c646-4304-a884-d265bd4ff5ca",
         "687f03e8-9b89-4557-8ffd-33869c1c999c"      ]
-    }
+    },
     {
       "id": "P3",
       "name": "User who suffers from insomnia and anxiety",
@@ -87,7 +87,7 @@
         "74c5a85b-7844-4201-b1a6-5ca1c1d74535",
         "c11eb6a7-dc90-45c0-a991-f263b4daaa98",
         "38d83ef0-6a8a-4ae4-b3ee-02823efa37ee"     ]
-    } 
+    },
     {
       "id": "P4",
       "name": "Bug reporter",
@@ -117,7 +117,7 @@
         "d829427f-7cd3-4bb6-86a7-f522dcb87b95",
         "7ded350b-cded-4b48-bfd4-412584be4b75",
         "0ebaf60c-db81-4d2f-8963-4d802732ce29"      ]
-    } 
+    }, 
     {
       "id": "P5",
       "name": "Android device user",
